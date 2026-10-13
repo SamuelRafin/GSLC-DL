@@ -1,0 +1,43 @@
+{
+  "seed": 42,
+  "smoke_mode": false,
+  "config": {
+    "batch_size": 32,
+    "max_epochs": 30,
+    "patience": 4,
+    "min_delta": 0.0001,
+    "weight_decay": 0.01,
+    "lr_scratch": 0.001,
+    "lr_head": 0.001,
+    "lr_block": 0.0001,
+    "num_workers": 2,
+    "split": [
+      0.7,
+      0.15,
+      0.15
+    ]
+  },
+  "classes": [
+    "Abyssinian",
+    "Bengal",
+    "Birman",
+    "Persian",
+    "Siamese",
+    "Beagle",
+    "Pug",
+    "Samoyed",
+    "Shiba Inu",
+    "Chihuahua"
+  ],
+  "n_train": 1397,
+  "n_val": 300,
+  "n_test": 300,
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130",
+  "python": "3.13.15",
+  "device": "Tesla T4",
+  "b4_base": "B3",
+  "b5_archs": [
+    "efficientnet_b0"
+  ]
+}

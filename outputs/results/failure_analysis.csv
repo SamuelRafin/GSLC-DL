@@ -1,0 +1,8 @@
+test_idx,ground_truth,prediksi,confidence,hipotesis_penyebab
+137,Bengal,Abyssinian,0.99798167,(ISI MANUAL setelah melihat citra)
+977,Siamese,Birman,0.81349623,(ISI MANUAL setelah melihat citra)
+1009,Abyssinian,Bengal,0.72744846,(ISI MANUAL setelah melihat citra)
+1916,Siamese,Birman,0.72448725,(ISI MANUAL setelah melihat citra)
+1343,Birman,Siamese,0.5107582,(ISI MANUAL setelah melihat citra)
+907,Shiba Inu,Beagle,0.5073395,(ISI MANUAL setelah melihat citra)
+1387,Birman,Siamese,0.49918142,(ISI MANUAL setelah melihat citra)

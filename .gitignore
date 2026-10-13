@@ -1,0 +1,9 @@
+# dataset dan bobot model, bisa dibuat ulang dengan menjalankan notebook
+data/
+checkpoints/
+*.pt
+outputs.zip
+
+# file sementara Jupyter dan Python
+.ipynb_checkpoints/
+__pycache__/

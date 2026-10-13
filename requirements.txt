@@ -1,0 +1,28 @@
+# Dependensi Tugas 05 - Transfer Learning (Oxford-IIIT Pet)
+# Eksperimen dijalankan di Google Colab, Python 3.13.15, GPU Tesla T4.
+# Rujukan: outputs/results/environment.json
+
+# Versi persis yang tercatat saat run
+torch==2.11.0
+torchvision==0.26.0
+
+# Paket berikut dipakai notebook, tetapi versinya tidak ikut tercatat di
+# environment.json. Batas bawah di sini adalah versi pertama yang mendukung
+# Python 3.13, jadi lingkungan yang memenuhinya pasti kompatibel dengan run asli.
+numpy>=2.1
+pandas>=2.2.3
+scikit-learn>=1.5.2
+matplotlib>=3.9.2
+pillow>=11.0.0
+
+# Untuk mengunci kelima paket di atas ke versi persis yang dipakai Colab,
+# jalankan di notebook lalu ganti baris >= di atas dengan hasilnya:
+#   !pip freeze | grep -iE "^(numpy|pandas|scikit-learn|matplotlib|pillow)=="
+
+# Instalasi lokal dengan GPU CUDA 13.0 (sesuai build torch 2.11.0+cu130):
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu130
+# Tanpa GPU, hapus suffix +cu130 dengan memakai index CPU:
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+
+# Notebook dijalankan di Colab, jadi Jupyter tidak dicantumkan. Untuk menjalankan
+# secara lokal, tambahkan jupyterlab atau notebook sesuai preferensi.
