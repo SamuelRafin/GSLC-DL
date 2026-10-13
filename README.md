@@ -2,7 +2,7 @@
 
 NIM: 2802477383
 Nama: Samuel Rafin Djunaidi
-Repository: [link GitHub menyusul]
+Repository: https://github.com/SamuelRafin/GSLC-DL
 
 ## Ringkasan
 
